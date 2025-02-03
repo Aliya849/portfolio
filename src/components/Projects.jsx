@@ -4,7 +4,7 @@ import { FaShoppingCart,FaTrophy,FaShoppingBasket, FaReact, FaGithub, FaLink, Fa
 
 function Projects() {
   return (
-    <div className="min-h-screen bg-black text-white p-20">
+    <div className="min-h-screen bg-black text-white  w-[90%] mx-auto">
       <Navbar />
       <div className="max-w-4xl mx-auto mt-12">
         <div className="bg-gray-800 p-10  rounded-2xl shadow-lg mb-10 ">
