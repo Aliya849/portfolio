@@ -306,12 +306,12 @@
     text-align: center;
     font-size: 2rem;
     position: relative;
-    bottom: 1rem;
+    bottom: 0.2rem;
   }
   
   
   .education{
-    padding: 100px 15px;
+    padding: 90px 15px;
     background: var(--second-bg-color);
   }
   
