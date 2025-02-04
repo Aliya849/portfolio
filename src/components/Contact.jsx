@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt,FaSkype } from "react-icons/fa";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -47,7 +47,7 @@ function Contact() {
   };
 
   return (
-    <section className="h-screen bg-black text-white flex flex-col items-center mb-10  ">
+    <section className=" bg-black text-white flex flex-col items-center  ">
       <h2 className="text-4xl font-extrabold text-[#be95c4] mb-6 text-center">
         Contact <span className="text-white">Me</span>
       </h2>
@@ -63,8 +63,16 @@ function Contact() {
             <p className="text-lg underline">aliyabanu849@gmail.com</p>
           </div>
           <div className="flex items-center gap-4 cursor-pointer">
-            <FaPhoneAlt className="text-[#e0b1cb] text-3xl" />
-            <p className="text-lg underline">9980856150</p>
+            <FaSkype className="text-[#e0b1cb] text-3xl" />
+            <p className="text-lg underline"
+            onClick={()=>{
+              const open = window.confirm("Do you want open Skype?");
+            if(open){
+              window.open("https://web.skype.com/?openPstnPage=true", "_blank");
+            }}
+            }>
+              Open Skype
+            </p>
           </div>
         </div>
 

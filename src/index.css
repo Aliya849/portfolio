@@ -304,10 +304,9 @@
   .heading{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    margin: 5rem 0;
-    font-size: 3rem;
+    font-size: 2rem;
     position: relative;
-    top: 3rem;
+    bottom: 1rem;
   }
   
   
@@ -447,7 +446,7 @@
     
       .timeline-content p {
         font-size: 14px;
-        line-height: 18px;
+        line-height: 20px;
       }
     
       .timeline-date {
@@ -456,9 +455,9 @@
       }
     
       .heading {
-        font-size: 2rem;
+        font-size: 0.5rem;
         margin: 2rem 0;
-  
+        
       }
     }
 

@@ -10,8 +10,10 @@ function Header() {
         <div className="home-content">
             <h1>Hi,It's<span> Aliya</span></h1>
             <h3 className="textanim">I'm a <span></span></h3>
-            <p>I'm from Davangere.Persuing BCA at INTERFACE COLLEGE OF COMPUTER APPLICATION[ICCA] Throughout my academic journey, I'm developing a strong foundation in computer science and a keen interest in software development
-                I'm interested to pursue a career in software development, where I can contribute to innovative projects and continue to grow as a professional. I am passionate about solving complex problems and continuously learning new technologies.
+            <p>
+            I am currently pursuing a Bachelor of Computer Applications (BCA) at INTERFACE COLLEGE OF COMPUTER APPLICATION (ICCA) in Davangere. Throughout my academic journey, I have developed a strong foundation in computer science and a keen interest in software development.
+            <br />
+            I am passionate about solving complex problems and continuously learning new technologies. My goal is to build a career in software development, where I can contribute to innovative projects and grow as a professional.
             </p>
         
 
